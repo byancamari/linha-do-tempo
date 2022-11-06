@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    color: #0b4462;
+}
+
+.nav-list{
+   display: flex;
+   align-items: center;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 0 15px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color:#2d938e ;
+    font-weight: 400;
+}
+
+.login-button button{
+    border: none;
+    background-color: #fef7d5;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.login-button button a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.login-button button:hover{
+    background: #6abac0;
+}
+.container{
+    text-align: center;
+    align-items: center;
+ }
+.container h1{
+    margin: 20px;
+}
+.intro{
+    border-radius: 20px;
+    width:100%;
+    display: flex;
+}
+.intro p{
+    margin: 23px;
+ text-align: left;
+}
+#img1{
+    border-radius: 20px;
+    width: 15%;
+    float: left;
+    margin: 19px;
+}
+.card{
+   
+    border-radius: 20px;
+    margin: 5%;
+    float: left;
+    box-shadow: 60px -16px teal;
+}
+.card img{
+ float: left;
+ width:35%;
+ margin: 10px;
+ border-radius: 20px;
+}
+.card h2{
+    color: #2d938e;
+}
+#positivo{
+    color:green;
+}
+#negativo{
+    color: red;
+}
+hr{
+  border: none;
+  border-top: 1px solid rgb(153, 149, 149);
+}
+
+.f{
+    align-items: center;
+    text-align: center;
+}
+
+    
